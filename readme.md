@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="ASSETS/logo.png" alt="Dream Home Finder Logo" width="80" height="80">
+  <img src="ASSETS/Logo.png" alt="Dream Home Finder Logo" width="80" height="80">
   <h1>🏠 Dream Home Finder</h1>
   <p>Discover Your Perfect Home with Style and Ease</p>
 
@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-  <img src="ASSETS/sample/DreamHomeFinder (3).gif" alt="Dream Home Finder Demo" width="100%">
+  <img src="ASSETS/sample/DreamHomeFinder (2).gif" alt="Dream Home Finder Demo" width="100%">
 </div>
 
 ## ✨ About
