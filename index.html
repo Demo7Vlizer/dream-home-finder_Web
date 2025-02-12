@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Home Finder</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="assets/logo.png" alt="Abstract Logo"> Abstract
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links">
+            <a href="#buy">Buy</a>
+            <a href="#explore">Explore</a>
+            <a href="#about">About us</a>
+            <a href="#blog">Blog</a>
+            <a href="#resources">Resources</a>
+        </div>
+    </nav>
+
+    <main class="hero-section">
+        <div class="hero-content">
+            <h1>Find your dream<br>home with ease</h1>
+            <p>From finding the right property to finalizing your purchase, we're here to guide first-time buyers every step of the way toward homeownership.</p>
+            
+            <div class="search-box">
+                <div class="input-with-icon">
+                    <img src="ASSETS/LOCATION_ICON.png" alt="Location" class="location-icon">
+                    <input type="text" placeholder="Enter location" class="location-input">
+                </div>
+                <button class="search-button">Find properties</button>
+            </div>
+
+            <div class="testimonial-badge">
+                <div class="avatar-group">
+                    <img src="ASSETS/1_PROFILE.jpg" alt="User">
+                    <img src="ASSETS/2_PROFILE.jpg" alt="User">
+                    <img src="ASSETS/3_PROFILE.jpg" alt="User">
+                    <img src="ASSETS/4_PROFILE.webp" alt="User">
+                    <img src="ASSETS/5_PROFILE.avif" alt="User">
+                    <img src="ASSETS/6_PROFILE.jpg" alt="User">
+                </div>
+                <p>Helped 100k+ people find their perfect homes</p>
+            </div>
+        </div>
+        
+        <div class="hero-image">
+            <img src="ASSETS/Contemporary House at Dawn_Dusk.jpeg" alt="Modern House">
+        </div>
+    </main>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            // Optional: If you want to show the menu when clicking hamburger
+            navLinks.classList.toggle('show');
+        });
+    </script>
+</body>
+</html> 
